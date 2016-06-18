@@ -1,0 +1,29 @@
+{
+  "name": "debug-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Debug webpack builds and plugins",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevlened/debug-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "debug",
+    "debugger"
+  ],
+  "scripts": {
+    "test": "webpack --config ./example/example.config.js"
+  },
+  "author": "Len Boyette",
+  "license": "MIT",
+  "homepage": "https://github.com/kevlened/debug-webpack-plugin",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
