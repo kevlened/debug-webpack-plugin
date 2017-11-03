@@ -37,7 +37,7 @@ module.exports = {
       },
       
       // Defaults to the compiler's setting
-      debug: true;
+      debug: true
     })
   ],
   
